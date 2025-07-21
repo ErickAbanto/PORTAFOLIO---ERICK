@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/css/style.css">
+  <title> Mi Portafolio - Erick Abanto</title>
+</head>
+<body>
+  
+
+  <!-- Encabezado -->
+  <header class="header">
+    <div class="header__Logo__erick">Erick Abanto</div>
+    <nav class="header__navbar__menu">
+      <a class="header__navbar__menu__link" href="#inicio">Inicio</a>
+      <a class="header__navbar__menu__link" href="#experiencia">Experiencia</a>
+      <a class="header__navbar__menu__link" href="#proyectos">Proyectos</a>
+      <a class="header__navbar__menu__link" href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+
+  <!-- Inicio -->
+  <main class="inicio" id="inicio">
+    <div class="inicio__foto--wrapper">
+      <img src="public/imgs/logo principal.jpg"alt="Foto de Erick" class="inicio__foto--circular"/>
+    </div>
+
+
+  <!-- Descripcion -->
+    <h1 class="inicio__saludo">HOLA, ME LLAMO</h1>
+    <h2 class="inicio__nombre">ERICK ABANTO</h2>
+    <h3 class="inicio__rol">SOY DESARROLLADOR WEB </h3>
+    <p class="inicio__descripcion">
+      "Apasionado por diseñar y construir experiencias web funcionales, atractivas y centradas en el usuario. Actualmente curso la carrera de Computación e Informática, desarrollando competencias en desarrollo web, programación y diseño de sistemas. Me caracterizo por mi compromiso con la innovación y el aprendizaje constante."
+    </p>
+    <a href="#" class="inicio__boton">Descargar CV</a>
+  </main>
+
+
+  <!-- Experiencia -->
+  <section id="experiencia" class="experiencia">
+    <h2 class="experiencia__titulo">Experiencia Laboral</h2>
+
+    <div class="experiencia__tarjeta">
+      <div class="experiencia__tarjeta__contenido">
+        <img src="public/imgs/logo botica.jpg" alt="Foto Farmacia" class="experiencia__tarjeta__foto"/>
+        <div>
+          <h3 class="experiencia__tarjeta__puesto">Técnico en Farmacia</h3>
+          <p class="experiencia__tarjeta__instituto"> Erick Farma año 2022 - 2024</p>
+          <p class="experiencia__tarjeta__detalle">
+            He trabajado como técnico en una botica, donde me encargaba de atender al público, dispensar medicamentos según receta médica, brindar orientación sobre el uso adecuado de los productos farmacéuticos y mantener el control del stock de medicamentos.
+          </p>
+          <ul class="experiencia__tarjeta__lista">
+            <li class="experiencia__tarjeta__articulo">Atención personalizada</li>
+            <li class="experiencia__tarjeta__articulo">Manejo de productos farmacéuticos</li>
+            <li class="experiencia__tarjeta__articulo">Gestión de stock e inventario</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="experiencia__tarjeta">
+      <div class="experiencia__tarjeta__contenido">
+        <img src="public/imgs/ipc logo.jpg" alt="Foto Instituto" class="experiencia__tarjeta__foto"/>
+        <div>
+          <h3 class="experiencia__tarjeta__puesto">Estudiante de Computación e Informática</h3>
+          <p class="experiencia__tarjeta__instituto">Instituto Superior Tecnológico - 2024 - Actualidad</p>
+          <p class="experiencia__tarjeta__detalle">
+            Soy estudiante de Computación e Informática, con interés en el desarrollo de software, manejo de bases de datos y soporte técnico. Me encuentro en formación continua, adquiriendo conocimientos en programación, redes y tecnologías de la información.
+          </p>
+          <ul class="experiencia__tarjeta__lista">
+            <li class="experiencia__tarjeta__articulo">HTML, CSS, JavaScript</li>
+            <li class="experiencia__tarjeta__articulo">Bases de datos y lógica de programación</li>
+            <li class="experiencia__tarjeta__articulo">Diseño de sistemas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos">
+    <h2 class="proyectos__titulo">Proyectos Personales</h2>
+    <p class="proyectos__descripcion">
+      He estado desarrollando proyectos personales orientados al aprendizaje práctico, como la creación de tiendas de ropa en línea, formularios web y tarjetas Card.
+    </p>
+
+
+    <div class="proyectos__galeria">
+      <div class="proyectos__galeria__trabajos">
+        <img src="public/imgs/ropa.PNG" alt="Proyecto Tienda de Ropa" class="proyectos__galeria__imagen"/>
+        <p class="proyectos__galeria__nombre">Tienda de Ropa</p>
+      </div>
+      <div class="proyectos__galeria__trabajos">
+        <img src="public/imgs/formulario.PNG" alt="Proyecto Formulario Web" class="proyectos__galeria__imagen"/>
+        <p class="proyectos__galeria__nombre">Formulario Web</p>
+      </div>
+      <div class="proyectos__galeria__trabajos">
+        <img src="public/imgs/tarjeta card.PNG" alt="Tarjeta" class="proyectos__galeria__imagen"/>
+        <p class="proyectos__galeria__nombre">Tarjeta Card</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto">
+    <h2 class="contacto__titulo">Contacto</h2>
+    <form class="contacto__formulario">
+      <input type="text" class="contacto__formulario__input" placeholder="Nombre" required>
+      <input type="email" class="contacto__formulario__input" placeholder="Correo" required>
+      <textarea rows="5" class="contacto__formulario__textarea" placeholder="Mensaje" required></textarea>
+      <button type="submit" class="contacto__formulario__boton">Enviar Mensaje</button>
+    </form>
+  </section>
+
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__texto">2025 - Erick Abanto </p>
+    </div>
+  </footer>
+
+</body>
+</html>
